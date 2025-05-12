@@ -1,0 +1,158 @@
+@import './base.css';
+body {
+  background: #ebebeb;
+}
+.container {
+  display: flex;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.left-container {
+  width: 25%;
+  padding-top: 50px;
+}
+
+.main-container {
+  width: 75%;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 20px;
+}
+/*
+.right-container {
+  width: 15%;
+}*/
+.dp__cell_inner {
+  font-size: 13px;
+  width: 20px !important;
+  height: 24px !important;
+}
+.dp__calendar_header {
+  display: none !important;
+}
+.dp__calendar_row {
+  margin: 0 !important;
+}
+.dp__menu_content_wrapper {
+  flex-wrap: wrap;
+}
+.dp--preset-dates {
+  width: 100%;
+  display: flex;
+}
+.dp__calendar_header_separator {
+  display: none;
+}
+.calendar {
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
+button.dp__btn.dp--preset-range {
+  font-size: 14px;
+  text-decoration: underline;
+  font-weight: 500;
+}
+.dp__input {
+  font-size: 14px !important;
+  border: none !important;
+}
+
+.dp__main.dp__theme_light.dp__flex_display.dp__flex_display_with_input.calendar > div:first-child {
+  width: 100%;
+  margin-bottom: 10px;
+}
+.dp--tp-wrap {
+  display: none;
+  background: rgba(1, 105, 204, 0.85);
+}
+.prod-buttons button {
+  background: #ffffff;
+  margin-right: 11px;
+  border: none;
+  color: #393939;
+  border-radius: 2px;
+  font-size: 15px;
+  margin-bottom: 5px;
+  cursor: pointer;
+}
+.dp--preset-dates {
+  border: none !important;
+}
+.dp__relative {
+  border: none !important;
+}
+h2.title-charts-container span {
+  font-weight: 100;
+}
+.dp__theme_light {
+  background: #ffffff78 !important;
+}
+.dp__range_between {
+  background: #9f9f9f29 !important;
+}
+.prod-btn-cont h3 {
+  margin-bottom: 4px;
+}
+.left-side-widgets {
+  margin-bottom: 20px;
+}
+.prod-charts-wrapper h3 {
+  font-size: 14px;
+  font-weight: 700;
+  width: 90px;
+}
+.prod-buttons button {
+  background: #ffffff;
+  margin-right: 11px;
+  border: none;
+  color: #393939;
+  border-radius: 2px;
+  font-size: 15px;
+  margin-bottom: 5px;
+  cursor: pointer;
+  box-shadow: 8px 4px 0 0 #b6b1a0;
+}
+.chart-container {
+  margin-bottom: 20px;
+  padding-left: 15px;
+  display: flex;
+}
+.warehouse-charts-wrapper h3 {
+  font-size: 13px;
+  font-weight: 500;
+  padding-top: 20px;
+  min-width: 100px;
+}
+.warehouse-charts-wrapper h2 {
+  margin-bottom: 30px;
+}
+.inventory-value span {
+  font-size: 9px;
+  position: relative;
+  top: -13px;
+  width: 5px;
+  height: 5px;
+  color: #44a500;
+  left: -3px;
+}
+.left-container {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  max-height: 947px;
+}
+.home-stocks span {
+  color: #a3a3a3;
+}
+.right-side-info {
+  font-size: 12px;
+}
+.in_row {
+  display: flex;
+}
+span.spacer {
+  margin: 0 7px;
+  color: #7c9fff;
+  font-weight: 900;
+}
